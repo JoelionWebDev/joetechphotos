@@ -1,0 +1,65 @@
+.herobg {
+  width: 100%;
+  margin: auto;
+  background-image: url(../../public/assets/images/herobg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+.margintop {
+  margin-top: 3rem;
+  padding-top: 3rem;
+}
+.herobg h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-top: 4rem;
+  color: #fff;
+  text-align: center;
+}
+
+.herobg h1 span {
+  color: rgb(189, 15, 15);
+}
+.flex {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 4rem;
+}
+
+@media (max-width: 900px) {
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .flex img {
+    display: none;
+  }
+  .herobg h1 {
+    padding-top: 1.5rem;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .herobg h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .herobg h1 {
+    font-size: 1.2rem;
+  }
+}
+img {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+@media (min-width: 900px) {
+  img {
+    width: 50%;
+  }
+}
